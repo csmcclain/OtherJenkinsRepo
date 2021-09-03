@@ -56,7 +56,7 @@ class Calculator {
      */
     String intToBinaryNumber(int n){
         
-        System.out.println("Hello From intToBinaryNumber");
+        System.out.println("Hello From intToBinaryNumber\n\n\n\n");
 
         StringBuilder stringBuilder = new StringBuilder();
 
