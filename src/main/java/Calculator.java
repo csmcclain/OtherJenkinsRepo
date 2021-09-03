@@ -55,8 +55,6 @@ class Calculator {
     if int a = 16 then this method returns: 10000
      */
     String intToBinaryNumber(int n){
-        
-        System.out.println("Hello From intToBinaryNumber\n\n\n\n");
 
         StringBuilder stringBuilder = new StringBuilder();
 
@@ -65,7 +63,7 @@ class Calculator {
             n = n / 2;
         } while (n > 0);
 
-        return stringBuilder.reverse().toString();
+        return stringBuilder.toString();
     }
 
     /*
