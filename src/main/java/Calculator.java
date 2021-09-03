@@ -63,7 +63,7 @@ class Calculator {
             n = n / 2;
         } while (n > 0);
 
-        return stringBuilder.toString();
+        return stringBuilder.reverse().toString();
     }
 
     /*
